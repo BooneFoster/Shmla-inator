@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "rick";
+    src: url(get_schwifty.ttf) format("truetype");
+}
+
+.rick {
+  font-family: rick;
+}
+body
+{
+	font-family: sans-serif;
+	background-color: #d9d9d9 ;
+	color: #B497D6;
+	margin-left: 75px;
+	margin-right: 75px;
+	font-size: 100%;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px solid #62a4ab;
+}
+
+header, footer
+{
+	text-align: center;
+	color: #05204A;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	font-size: 243%;
+	color: #62a4ab;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h4 {
+	color: #05204A;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+p {
+	font-size: 138%;
+	color: limegreen;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 263%;
+  color: limegreen;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+p3 {
+  color: #62a4ab;
+  font-size: 153%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: #02020A;
+}
+
+input {
+	font-size: 113%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.style-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 600;
+  border: solid $border-width $color;
+  outline: 0;
+  padding: .9rem 3.9rem;
+  font-size: 1.4rem;
+  letter-spacing: .08rem;
+  background-color: $color-bg;
+  border-radius: $radius;
+  position: relative;
+  cursor: pointer;
+}
+
+.style-1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 600;
+  border: solid $border-width $color;
+  outline: 0;
+  padding: .4rem 3.4rem;
+  font-size: 1.1rem;
+  letter-spacing: .08rem;
+  background-color: $color-bg;
+  border-radius: $radius;
+  position: relative;
+  cursor: pointer;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+	color: #B497D6;
+}
+
+nav
+{
+	text-align: center;
+	color: #02020A;
+}
