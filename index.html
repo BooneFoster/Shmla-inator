@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet"> 
+	<script src="scripts/shmla.js"></script>
+		<title>Shmla-inator</title>
+		<link rel="shortcut icon" href="images/rick.png">
+	</head>
+	<body>
+		<header>
+			<h1 class="rick">Amazing! A dimension where all proper nouns begin with "Shmla"!</h1>
+		</header>
+		<nav>
+
+		</nav>
+		<main>
+		<div>
+			<p class="rick">Please Enter Your First Name: </p>
+				<input type="text" id="name" placeholder="Morty" required>
+				<br><br>
+ 
+        	<img id="image" src="" />
+        	<br>
+    	</div>
+ 
+	    <button class="style-2" type="submit" onclick="show()" id="btnID">
+	        Shmloos It!⚡
+	    </button>
+ 		<p2 id="nameDisplay"></p2>
+ 		<br>
+
+		    <script>
+		        function show() {
+		        	var name = document.getElementById("name").value;
+		        	document.getElementById("nameDisplay").innerHTML = "\"" + "Shmla" + name + "!\"";
+
+		            let image = document.getElementById("image");
+		 
+		            image.src = "images/shmloss.jpg"
+		 			
+		            document.getElementById("btnID").style.display = "none";
+		        }
+		    </script>
+
+		    <button class="style-1" type="submit" onclick="reset()" id="btnID">
+	        	Reset!⚡
+	    	</button>
+
+		    <script>
+		        function reset() {
+		        	document.getElementById("nameDisplay").innerHTML = "";
+		            let image = document.getElementById("image");
+		 
+		            image.src = ""
+
+		            document.getElementById("btnID").style.display = "block";
+
+		            document.getElementById('name').value = "";
+		        }
+		    </script>
+		</main>
+		<footer>
+        <nav>
+
+        </nav>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<p3>Page built by Boone Foster</p3>
+		<br><br>
+	</footer>
+	</body>
+</html>
